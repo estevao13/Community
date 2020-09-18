@@ -1,0 +1,22 @@
+<lightning:layout class="slds-wrap" multipleRows="true">
+    <lightning:layoutItem size="12">
+        <div class="slds-m-bottom_small">
+            <p><span style="font-size: 
+      24px;"><strong>Solicitação de busca simples<br/></strong></span></p>
+        </div>
+    </lightning:layoutItem>
+</lightning:layout>
+<lightning:layout class="slds-wrap" multipleRows="true">
+    <lightning:layoutItem size="6">
+        <lightning:card class="slds-theme_shade" title="Documentos" iconName="doctype:gform" variant="base">
+            <aura:set attribute="actions">
+                <lightning:fileUpload label="" recordId=""></lightning:fileUpload>
+            </aura:set>
+        </lightning:card>
+    </lightning:layoutItem>
+    <lightning:layoutItem size="6">
+        <div>
+            <p>Espaço dedicado par o flow de busca simples </p>
+        </div>
+    </lightning:layoutItem>
+</lightning:layout>

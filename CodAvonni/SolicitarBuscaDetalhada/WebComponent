@@ -1,0 +1,22 @@
+<lightning-layout class="slds-wrap" multiple-rows="true">
+    <lightning-layout-item size="12">
+        <div class="slds-m-bottom_small">
+            <p><span style="font-size: 
+      24px;"><strong>Solicitar busca detalhada<br/></strong></span></p>
+        </div>
+    </lightning-layout-item>
+</lightning-layout>
+<lightning-layout class="slds-wrap" multiple-rows="true">
+    <lightning-layout-item size="6">
+        <lightning-card class="slds-theme_shade" title="Documentos" icon-name="doctype:gform" variant="base">
+            <div slot="actions">
+                <lightning-file-upload label="" record-id=""></lightning-file-upload>
+            </div>
+        </lightning-card>
+    </lightning-layout-item>
+    <lightning-layout-item size="6">
+        <div>
+            <p>Espaço dedicado para flow de busca detalhada</p>
+        </div>
+    </lightning-layout-item>
+</lightning-layout>

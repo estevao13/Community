@@ -1,0 +1,198 @@
+<lightning:layout class="slds-wrap" multipleRows="true">
+    <lightning:layoutItem size="12">
+        <div class="slds-m-bottom_small">
+            <p><span style="font-size: 
+      24px;"><strong>Resumo geral<br/></strong></span></p>
+        </div>
+    </lightning:layoutItem>
+</lightning:layout>
+<lightning:layout class="slds-wrap" multipleRows="true">
+    <div>
+        <p>Espaço reservado para relatório de chamados por status</p>
+    </div>
+    <lightning:card class="slds-theme_shade" title="Chamados aguardando resposta" iconName="action:info" variant="narrow">
+        <aura:set attribute="actions"></aura:set>
+        <div class="slds-m-right_x-small slds-m-left_x-small slds-theme_shade slds-border_top slds-border_bottom slds-border_left slds-border_right" title="">
+            <div class="forceCommunityRecordListCompact forceCommunityObjectHome">
+                <div class="dark uiAbstractList forceRecordLayout forceFilterListDeprecated">
+                    <div class="listTitleContainer uiBlock">
+                        <a class="triggerLink disabled">
+                            <h2 class="listTitle truncate"></h2>
+                        </a>
+                    </div>
+                    <div class="listContent">
+                        <ul class="dark">
+                            <li class="forceCommunityRecordListCompactCard forceRecordLayou">
+                                <div class="template">
+                                    <div class="primaryField truncate"><a><span>Burlington Textiles Weaving Plant Generator </span></a></div>
+                                    <ul class="secondaryFields truncate">
+                                        <li><span>Burlington Textiles Corp of America </span></li>
+                                        <li><span>17/07/2019 </span></li>
+                                        <li><span>$2,035,000.00 </span></li>
+                                    </ul>
+                                </div>
+                                <div class="template">
+                                    <div class="primaryField truncate"><a><span>Dickenson Mobile Generators </span></a></div>
+                                    <ul class="secondaryFields truncate">
+                                        <li><span>Dickenson plc </span></li>
+                                        <li><span>18/07/2019 </span></li>
+                                        <li><span>$15,000.00 </span></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="viewAllLink"><a aria-label="View All" href="javascript:void(0);">View All</a></div>
+        </div>
+    </lightning:card>
+</lightning:layout>
+<div>
+    <p><span style="font-size: 
+      18px;"></span><span style="font-size: 18px;"><strong>Meus casos</strong></span><span style="font-size: 
+      18px;"><br/></span></p>
+</div>
+<lightning:layout class="slds-wrap" multipleRows="true">
+    <lightning:layoutItem size="12">
+        <lightning:layout class="slds-wrap" multipleRows="true">
+            <lightning:layoutItem size="12">
+                <lightning:tabset variant="default">
+                    <lightning:tab id="-MHRikctoGQki59EYaGD" label="Marcas">
+                        <div title="">
+                            <div class="forceCommunityRecordListCompact forceCommunityObjectHome">
+                                <div class="dark uiAbstractList forceRecordLayout forceFilterListDeprecated">
+                                    <div class="listTitleContainer uiBlock">
+                                        <a class="triggerLink disabled">
+                                            <h2 class="listTitle truncate"></h2>
+                                        </a>
+                                    </div>
+                                    <div class="listContent">
+                                        <ul class="dark">
+                                            <li class="forceCommunityRecordListCompactCard forceRecordLayou">
+                                                <div class="template">
+                                                    <div class="primaryField truncate"><a><span>Burlington Textiles Weaving Plant Generator </span></a></div>
+                                                    <ul class="secondaryFields truncate">
+                                                        <li><span>Burlington Textiles Corp of America </span></li>
+                                                        <li><span>17/07/2019 </span></li>
+                                                        <li><span>$2,035,000.00 </span></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="template">
+                                                    <div class="primaryField truncate"><a><span>Dickenson Mobile Generators </span></a></div>
+                                                    <ul class="secondaryFields truncate">
+                                                        <li><span>Dickenson plc </span></li>
+                                                        <li><span>18/07/2019 </span></li>
+                                                        <li><span>$15,000.00 </span></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="viewAllLink"><a aria-label="View All" href="javascript:void(0);">View All</a></div>
+                        </div>
+                    </lightning:tab>
+                    <lightning:tab id="-MHRikctoGQki59EYaGE" label="Patentes / Desenho Industrial">
+                        <div title="">
+                            <div class="forceCommunityRecordListCompact forceCommunityObjectHome">
+                                <div class="dark uiAbstractList forceRecordLayout forceFilterListDeprecated">
+                                    <div class="listTitleContainer uiBlock">
+                                        <a class="triggerLink disabled">
+                                            <h2 class="listTitle truncate"></h2>
+                                        </a>
+                                    </div>
+                                    <div class="listContent">
+                                        <ul class="dark">
+                                            <li class="forceCommunityRecordListCompactCard forceRecordLayou">
+                                                <div class="template">
+                                                    <div class="primaryField truncate"><a><span>Burlington Textiles Weaving Plant Generator </span></a></div>
+                                                    <ul class="secondaryFields truncate">
+                                                        <li><span>Burlington Textiles Corp of America </span></li>
+                                                        <li><span>17/07/2019 </span></li>
+                                                        <li><span>$2,035,000.00 </span></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="template">
+                                                    <div class="primaryField truncate"><a><span>Dickenson Mobile Generators </span></a></div>
+                                                    <ul class="secondaryFields truncate">
+                                                        <li><span>Dickenson plc </span></li>
+                                                        <li><span>18/07/2019 </span></li>
+                                                        <li><span>$15,000.00 </span></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="viewAllLink"><a aria-label="View All" href="javascript:void(0);">View All</a></div>
+                        </div>
+                    </lightning:tab>
+                </lightning:tabset>
+            </lightning:layoutItem>
+        </lightning:layout>
+    </lightning:layoutItem>
+</lightning:layout>
+<lightning:layout class="slds-wrap" multipleRows="true">
+    <lightning:layoutItem size="12">
+        <div>
+            <p><span style="font-size: 
+      18px;"><strong>Financeiro</strong></span></p>
+        </div>
+        <lightning:layout class="slds-wrap" multipleRows="true">
+            <lightning:layoutItem size="6">
+                <lightning:card title="Próximos vencimentos" iconName="action:new_notebook" variant="base">
+                    <aura:set attribute="actions"></aura:set>
+                    <div class="slds-card__body_inner">
+                        <div>
+                            <p>Espaço reservado para relatório de proximos vencimentos</p>
+                        </div>
+                    </div>
+                </lightning:card>
+            </lightning:layoutItem>
+            <lightning:layoutItem size="6">
+                <lightning:card title="Próximos vencimentos" iconName="action:update" variant="base">
+                    <aura:set attribute="actions"></aura:set>
+                    <div class="slds-card__body_inner">
+                        <div class="slds-m-right_x-small slds-m-left_x-small slds-theme_shade slds-border_top slds-border_bottom slds-border_left slds-border_right" title="">
+                            <div class="forceCommunityRecordListCompact forceCommunityObjectHome">
+                                <div class="dark uiAbstractList forceRecordLayout forceFilterListDeprecated">
+                                    <div class="listTitleContainer uiBlock">
+                                        <a class="triggerLink disabled">
+                                            <h2 class="listTitle truncate"></h2>
+                                        </a>
+                                    </div>
+                                    <div class="listContent">
+                                        <ul class="dark">
+                                            <li class="forceCommunityRecordListCompactCard forceRecordLayou">
+                                                <div class="template">
+                                                    <div class="primaryField truncate"><a><span>Burlington Textiles Weaving Plant Generator </span></a></div>
+                                                    <ul class="secondaryFields truncate">
+                                                        <li><span>Burlington Textiles Corp of America </span></li>
+                                                        <li><span>17/07/2019 </span></li>
+                                                        <li><span>$2,035,000.00 </span></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="template">
+                                                    <div class="primaryField truncate"><a><span>Dickenson Mobile Generators </span></a></div>
+                                                    <ul class="secondaryFields truncate">
+                                                        <li><span>Dickenson plc </span></li>
+                                                        <li><span>18/07/2019 </span></li>
+                                                        <li><span>$15,000.00 </span></li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="viewAllLink"><a aria-label="View All" href="javascript:void(0);">View All</a></div>
+                        </div>
+                    </div>
+                </lightning:card>
+            </lightning:layoutItem>
+        </lightning:layout>
+    </lightning:layoutItem>
+</lightning:layout>
